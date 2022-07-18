@@ -1,0 +1,62 @@
+@import url("loginstyle.css");
+
+nav ul li{
+    display: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #EAC926;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    width: 100vw;
+    height: 25vh;
+}
+
+.imagen1{
+    width: 50vw;
+    margin: 3%;
+}
+
+.centrar{
+    font-size: 1rem;
+    position:absolute;
+    top: 13%;
+    
+}
+
+
+.fondoburger{
+    display: block;
+    background-color: blue;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 20%;
+    padding: 0.1rem 0.60rem 0.6rem 0.6rem;   
+    position: absolute;
+    bottom:76%;
+    left: 40%;
+    color: white;
+    font-size: 2rem;
+};
+
+.posi{
+    position: relative;
+    left: 10%;
+}
+.posi{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+    flex-grow: 1;
+    
+}

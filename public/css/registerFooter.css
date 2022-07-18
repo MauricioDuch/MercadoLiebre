@@ -1,0 +1,21 @@
+@import url("registerstyle.css");
+
+footer{
+    background-color: white;
+    text-align: center;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5rem;
+    position: relative;
+    left: -1%;
+}
+
+p.menor{
+    font-size: 1rem;
+}
+
+.tamañoico{
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+    color: #1259c3;
+}    

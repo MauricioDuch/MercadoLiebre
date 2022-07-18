@@ -1,0 +1,154 @@
+@import url("loginHead.css");
+@import url("loginMain.css");
+@import url("loginFooter.css");
+
+
+@media screen and (min-width:767px)and (max-width:1024px) {
+    /*Header*/
+
+    nav ul li{
+        display: flex;
+    }
+
+    header{
+        height: 33vh;
+    }
+    .imagen1{
+        width: 40vw;
+    }
+    .centrar{
+        font-size: 1rem;
+        position:absolute;
+        top: 20%;
+        left: 30%;
+    }
+
+    .fondoburger{
+        display: none;
+    };
+    
+    .posi{
+        position: relative;
+        right: 10%;
+    }
+
+    .topbar{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bar ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .bar ul li{
+        margin: 1rem;
+        position: relative;
+        top: 150%;
+    }
+    
+    /*/Header*/
+    footer{
+        background-color: white;
+        text-align: center;
+        width: 100vw;
+        height: 70vh;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+      
+    }
+    
+}
+
+
+@media screen and (min-width:1024px){
+    /*Header*/
+
+    nav ul li{
+        display: flex;
+    }
+
+    header{
+        height: 33vh;
+    }
+    .imagen1{
+        width: 25vw;
+    }
+    .centrar{
+        font-size: 1rem;
+        position:absolute;
+        top: 20%;
+        left: 40%;
+    }
+
+    .fondoburger{
+        display: none;
+    };
+    .posi{
+        position: relative;
+        right: 50%;
+    }
+
+    .topbar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bar ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .bar ul li{
+        margin: 1rem;
+        position: relative;
+        top: 30%;
+    }
+    
+    /*/Header*/
+
+    /*Footer*/
+    footer{
+        background-color: white;
+        text-align: center;
+        width: 100vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        position: relative;
+        left: 0%;
+    }
+
+    footer section ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        position: relative;
+        right: -10%;
+    }
+    
+    footer ul li{
+        margin-left: 2rem;
+    }
+    
+    
+    .titu{
+        font-size: 2rem;
+    }
+    
+    
+    footer h4{
+        position:absolute;
+        left: -9%;
+        bottom: -60%;
+    }
+    /*/Footer*/
+}

@@ -1,0 +1,50 @@
+@import url("styles.css");
+
+header nav ul li{
+    Display:none
+}
+
+/* Header*/
+header{
+    background-color: #EAC926;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    width: 500vw;
+    height: 60vh;
+}
+
+.centrar{
+  font-size: 2.2rem;
+  position:relative;
+  top: 10%;
+  left: 20%;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.imagen1{
+    width: 100vw;
+    margin: 3%;
+}
+
+.fondoburger{
+    display: block;
+    background-color: blue;
+    width: 35vw;
+    height: 15vh;
+    border-radius: 20%;
+    padding: 0.60rem 0.60rem 0.60rem 1.3rem;   
+    position: absolute;
+    bottom:45%;
+    left: 150%;
+    color: white;
+    font-size: 5rem;
+};

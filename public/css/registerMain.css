@@ -1,0 +1,32 @@
+@import url("registerstyle.css");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ebebeb;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dise{
+    padding: 0.4rem;
+}
+
+.formulario{
+    margin-bottom: 0.2rem;
+}
+
+.diseño{
+    width: 100vw;
+}
+
+.boton{
+    background-color: #1259c3;
+    font-size: 1rem;
+    border-radius: 20%;
+
+}

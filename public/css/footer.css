@@ -1,0 +1,23 @@
+@import url("styles.css");
+
+p.menor{
+    font-size: 1rem;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    width: 100vw;
+    height: 30vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    position: relative;
+    left: -4%;
+}
+
+
+.tamañoico{
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+    color: #1259c3;
+}    

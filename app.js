@@ -17,3 +17,15 @@ server.get("/", function(req, res){
     res.sendFile(file)
 });
 
+server.get("/register", function(req, res){
+    let file2 = path.join(__dirname,"views","register.html");
+    res.sendFile(file2)
+});
+
+server.get("/login", function(req, res){
+    let file3 = path.join(__dirname,"views","login.html");
+    res.sendFile(file3)
+});
+
+
+

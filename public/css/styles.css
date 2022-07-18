@@ -1,0 +1,587 @@
+@import url("body.css");
+@import url("head.css");
+@import url("footer.css");
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+
+@media screen and (min-width:310px) and (max-width:768px){
+    
+    
+    /* Header*/
+    nav ul li{
+        display: none;
+    }
+
+    header{
+        background-color: #EAC926;
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5rem;
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .posi{
+        position: relative;
+        right: -20%;
+    }
+    
+    .centrar{
+      font-size: 1.2rem;
+      position:relative;
+      top: 10%;
+      left: 1%;
+    }
+    
+    
+    li{
+        list-style-type: none;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .imagen1{
+        width: 55vw;
+        margin: 5%;
+    }
+    
+    .fondoburger{
+        display: block;
+        background-color: blue;
+        width: 20vw;
+        height: 8vh;
+        border-radius: 20%;
+        padding: 0.1rem 0.60rem 0.6rem 0.6rem;   
+        position: absolute;
+        bottom:64%;
+        left: 40%;
+        color: white;
+        font-size: 3rem;
+    };
+    
+    /* Fin Header*/
+    
+    /* Main */
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    .titulares{
+        font-size: 2rem;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        right: -5%;
+    }
+    
+    .price{
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    
+    .des{
+        font-size: 1.5rem;
+        color: greenyellow;
+        margin: 1rem;
+        position: relative;
+        top: 20%;
+    }
+    
+    .product:hover{
+        opacity: 1;
+        transition-property:opacity;
+        color: #666;    
+    }
+    
+    .product{
+        font-size: 1.8rem;
+        position: relative;
+        bottom: 0%;
+        left: 7%;
+        z-index: 1;
+        opacity: 0;
+    }
+    
+    body{
+        background-color: #ebebeb;
+        width: 100vw;
+    }
+    
+    .separar{
+        display: block;
+        margin: 0.75rem;
+    }
+
+    .prueba1:hover{
+        box-shadow: 0rem 0rem 0.625rem rgb(100, 100, 100);
+        transition-property:box-shadow;
+    }
+
+    .prueba1{
+        display: block;
+        background-color: white;
+        width: 100vw;
+        height: 69vh;
+        margin: 0.75rem;
+        position: relative;
+        right: -54%;
+    
+    }
+    
+    
+    .imagen2{
+        width: 100vw;
+        border-top: 0.06rem;
+        border-style: solid;
+        border-color: #ebebeb;
+        padding: 0.313rem 0rem 0rem 0.25rem;
+    }
+    
+    .ban{
+        width: 100vw;
+    }
+    
+    .cont{
+        padding: 1rem;
+        display: flex;
+        position: relative;
+        top: -5%;
+    }
+    
+    .fa-truck{
+        display: block;
+        font-size: 1.5rem;
+        padding: 0.6rem;
+        width: 17vw;
+        height: 6vh;
+        border: 1px solid #39b54a;
+        color: #39b54a;
+        background-color: #fff;
+        border-radius: 50%;
+        position: relative;
+        right: -80%;
+        top: -4%;
+        
+    }
+    
+    
+    
+    main ul li{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    
+        position: relative;
+        bottom: 10%;
+        right: 60%;
+    }
+    
+    
+    /*Fin Main*/
+
+    /* Footer */
+
+    p.menor{
+        font-size: 1rem;
+    }
+    
+    footer{
+        background-color: white;
+        text-align: center;
+        width: 100vw;
+        height: 60vh;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        position: relative;
+        left: 2%;
+    }
+    
+    .tamañoico{
+        font-size: 2rem;
+        margin-bottom: 0.6rem;
+        color: #1259c3;
+    }    
+
+    /*Fin Footer*/
+
+
+
+}
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    .ban{
+        width: 100vw;
+    }
+
+    header{
+        width: 100vw;
+        height: 40vh;
+    }
+    header nav ul li{
+        display: flex;
+    }
+
+    .fondoburger{
+        display: none;
+    }
+    .imagen1{
+        width: 50vw;
+
+    }
+    .posi{
+        position: relative;
+        left: -10%;
+    }
+
+    .price{
+        font-size: 1.5rem;
+        margin: 0.5rem;
+    }
+
+    .des{
+        font-size: 1rem;
+        margin: 0.5rem;
+    }
+
+    .centrar{
+        font-size: 1rem;
+        position:relative;
+        left: 30%;
+        bottom: 15%;
+    }
+      
+      
+    .text{
+        font-size: 0.9rem;
+    }
+
+    .prueba1:hover{
+        box-shadow: 0rem 0rem 0.625rem rgb(100, 100, 100);
+        transition-property:box-shadow;
+    }
+
+    .prueba1{
+        display: block;
+        background-color: white;
+        width: 40vw;
+        height: 70vh;
+        margin: 0.75rem;
+        position: relative;
+        right: -150%;
+    }
+
+    .fa-truck{
+        display: block;
+        font-size: 1.5rem;
+        padding: 0.8rem;
+        width: 7vw;
+        height: 7vh;
+        border: 1px solid #39b54a;
+        color: #39b54a;
+        background-color: #fff;
+        border-radius: 50%;
+        position: relative;
+        right: -75%;
+        top: -5%;
+        
+    }
+
+    .product:hover{
+        opacity: 1;
+        transition-property:opacity;
+    }
+   
+    
+    .product{
+        font-size: 1.5rem;
+        position: relative;
+        left: 4%;
+        bottom: -6%;
+        color: #666;
+    }
+
+    .cont{
+        display: flex;
+        padding: 1rem;
+        position: relative;
+        top: -10%;
+    }
+
+    .imagen2{
+        width: 40vw;
+        border-top: 0.06rem;
+        border-style: solid;
+        border-color: #ebebeb;
+        padding: 0.313rem 0rem 0rem 0.25rem;
+    }
+
+    .titulares{
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        right: -5%;
+    }
+
+    .topbar{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    
+    
+    .bar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bar ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .bar ul li{
+        margin: 1rem;
+        position: relative;
+        top: 150%;
+    }
+
+    main ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        position: relative;
+        bottom: 20%;
+        right: 0%;
+    }
+
+
+    footer{
+        background-color: white;
+        text-align: center;
+        width: 100vw;
+        height: 70vh;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+      
+    }
+    
+}
+
+
+
+
+@media screen and (min-width:1024px){
+    .ban{
+        width: 100vw;
+    }
+
+    header{
+        width: 100vw;
+        height: 45vh;
+    }
+
+    .fondoburger{
+        display: none;
+    }
+    .imagen1{
+        width: 20vw;
+    }
+
+    .centrar{
+        font-size: 2rem;
+        text-align: center;
+        position:relative;
+        left: -3%;
+        bottom: 30%;
+    }
+
+    .prueba1{
+        display: block;
+        background-color: white;
+        width: 20vw;
+        height: 63vh;
+        margin: 0.75rem;
+        position: relative;
+        right: -200%;
+    }
+
+
+    .camion{
+        transform: rotateZ(0deg);
+    }
+    
+    
+    
+    @keyframes animacion{
+        from{
+            transform: rotateZ(0deg);
+        }
+        to {
+            transform: rotateZ(-90deg);
+        }
+    }   
+    
+    .fa-truck{
+        display: block;
+        font-size: 1rem;
+        padding: 0.4rem;
+        width: 2vw;
+        height: 4vh;
+        border: 1px solid #39b54a;
+        color: #39b54a;
+        background-color: #fff;
+        border-radius: 50%;
+        position: relative;
+        right: -82%;
+        top: -4%;
+        
+    }
+
+    .fa-truck:hover{
+        animation-name: animacion;
+        animation-duration: 1000ms;
+    }
+
+    
+
+
+    .imagen2{
+        width: 20vw;
+        border-top: 0.06rem;
+        border-style: solid;
+        border-color: #ebebeb;
+        padding: 0.313rem 0rem 0rem 0.25rem;
+    }
+
+    .titulares{
+        font-size: 2rem;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        right: -5%;
+    }
+
+    .price{
+        font-size: 1.5rem;
+    }
+    
+    .cont{
+        display: flex;
+        padding: 1rem;
+        position: relative;
+        top: -5%;
+    }
+
+    .text{
+        font-size: 1rem;
+    }
+    
+    
+    .des{
+        font-size: 1rem;
+        color: greenyellow;
+    }
+
+    .product{
+        font-size: 1.2rem;
+        position: relative;
+        bottom: -5%;
+        left: 3%;
+        color: #666;
+    }
+    
+
+    .topbar{
+        
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .bar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bar ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .bar ul li{
+        margin: 1rem;
+        position: relative;
+        top: 200%;
+    }
+
+    main ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+        position: relative;
+        bottom: -50%;
+        right: -25%;
+    }
+
+    header nav ul li{
+        display: flex;
+    }
+
+    footer{
+        background-color: white;
+        text-align: center;
+        width: 100vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        position: relative;
+        left: 0%;
+    }
+
+    footer section ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        position: relative;
+        right: -10%;
+    }
+    
+    footer ul li{
+        margin-left: 2rem;
+    }
+    
+    
+    .titu{
+        font-size: 2rem;
+    }
+    
+    
+    footer h4{
+        position:absolute;
+        left: -9%;
+        bottom: -60%;
+    }
+    
+    
+}
+
+
+
+    
+
