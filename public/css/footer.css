@@ -21,3 +21,8 @@ footer{
     margin-bottom: 0.6rem;
     color: #1259c3;
 }    
+
+.tamañoico:hover{
+    color: #111;
+    transition-property:color;
+}

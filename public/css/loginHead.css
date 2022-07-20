@@ -4,6 +4,42 @@ nav ul li{
     display: none;
 }
 
+header{
+    background-color: #EAC926;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    width: 100vw;
+    height: 40vh;
+}
+
+.posi{
+    position: relative;
+    right: -20%;
+}
+
+.centrar{
+  font-size: 1.2rem;
+  position:relative;
+  top: 15%;
+  left: 1%;
+}
+
+#query{
+    width: 60vw;
+    height: 3vh;  
+}
+
+.movi{
+    width: 9vw;
+    height: 3vh;
+    background-color: #fff;
+    position: relative;
+    left: -4%;
+}
+
+
+
 li{
     list-style-type: none;
 }
@@ -12,51 +48,21 @@ a{
     text-decoration: none;
 }
 
-header{
-    background-color: #EAC926;
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.9rem;
-    width: 100vw;
-    height: 25vh;
-}
-
 .imagen1{
-    width: 50vw;
-    margin: 3%;
+    width: 55vw;
+    margin: 5%;
 }
-
-.centrar{
-    font-size: 1rem;
-    position:absolute;
-    top: 13%;
-    
-}
-
 
 .fondoburger{
     display: block;
     background-color: blue;
-    width: 15vw;
-    height: 5vh;
+    width: 20vw;
+    height: 7vh;
     border-radius: 20%;
     padding: 0.1rem 0.60rem 0.6rem 0.6rem;   
     position: absolute;
-    bottom:76%;
+    bottom:64%;
     left: 40%;
     color: white;
-    font-size: 2rem;
+    font-size: 3rem;
 };
-
-.posi{
-    position: relative;
-    left: 10%;
-}
-.posi{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-
-    flex-grow: 1;
-    
-}

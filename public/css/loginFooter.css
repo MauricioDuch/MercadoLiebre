@@ -8,7 +8,7 @@ footer{
     background-color: white;
     text-align: center;
     width: 100vw;
-    height: 30vh;
+    height: 55vh;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     position: relative;
@@ -21,3 +21,8 @@ footer{
     margin-bottom: 0.6rem;
     color: #1259c3;
 } 
+
+.tamañoico:hover{
+    color: #111;
+    transition-property:color;
+}

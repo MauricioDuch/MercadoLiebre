@@ -13,14 +13,22 @@
     header{
         height: 33vh;
     }
-    .imagen1{
-        width: 40vw;
+    
+    .text{
+        font-size: 0.9rem;
     }
+
+    .imagen1{
+        width: 25vw;
+    }
+    
     .centrar{
         font-size: 1rem;
-        position:absolute;
-        top: 20%;
-        left: 30%;
+        align-items: center;
+        align-self: center;
+        position:relative;
+        left: 0%;
+        bottom: 15%;
     }
 
     .fondoburger{
@@ -35,6 +43,28 @@
     .topbar{
         display: flex;
         justify-content: space-around;
+
+    }
+
+    #query{
+        width: 20vw;
+        height: 3.5vh;
+        align-items: center;
+        align-self: center;
+
+        position: relative;
+        left: -98%;   
+        bottom: -20%;
+    }
+
+    .movi{
+        width: 3vw;
+        height: 3.5vh;
+        background-color: #fff;
+        
+        position: relative;
+        left: -95%;
+        bottom: -20%;
     }
 
     .bar{
@@ -49,7 +79,7 @@
     .bar ul li{
         margin: 1rem;
         position: relative;
-        top: 150%;
+        top: 125%;
     }
     
     /*/Header*/
@@ -59,7 +89,7 @@
         width: 100vw;
         height: 70vh;
         font-family: 'Roboto', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1rem;
       
     }
     
@@ -74,16 +104,21 @@
     }
 
     header{
-        height: 33vh;
+        height: 45vh;
     }
     .imagen1{
         width: 25vw;
     }
     .centrar{
+        font-size: 1.5rem;
+        text-align: center;
+        position:relative;
+        left: 0%;
+        bottom: 30%;
+    }
+
+    .text{
         font-size: 1rem;
-        position:absolute;
-        top: 20%;
-        left: 40%;
     }
 
     .fondoburger{
@@ -97,6 +132,25 @@
     .topbar{
         display: flex;
         justify-content: space-between;
+        padding: 1rem;
+        align-self: center;
+        align-items: center;
+    }
+
+    #query{
+        width: 30vw;
+        height: 3.5vh;
+        position: relative;
+        left: -70%;   
+    }
+
+    .movi{
+        width: 2vw;
+        height: 3.5vh;
+        background-color: #fff;
+        
+        position: relative;
+        left: -75%;
     }
 
     .bar{
@@ -111,7 +165,7 @@
     .bar ul li{
         margin: 1rem;
         position: relative;
-        top: 30%;
+        top: 70%;
     }
     
     /*/Header*/
@@ -121,6 +175,8 @@
         background-color: white;
         text-align: center;
         width: 100vw;
+        height: 30vh;
+
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         position: relative;

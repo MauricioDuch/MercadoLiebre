@@ -7,52 +7,144 @@
 }
 
 
+@media screen and (min-width: 310px) and (max-width:767px){
+    nav ul li{
+        display: none;
+    }
+    
+    header{
+        background-color: #EAC926;
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5rem;
+        width: 100vw;
+        height: 40vh;
+    }
+    
+    .posi{
+        position: relative;
+        right: -20%;
+    }
+    
+    .centrar{
+      font-size: 1.2rem;
+      position:relative;
+      top: 15%;
+      left: 1%;
+    }
+
+    .topbar{
+        flex-wrap: wrap;
+    }
+
+    #query{
+        width: 60vw;
+        height: 3vh;  
+    }
+    
+    .movi{
+        width: 9vw;
+        height: 3vh;
+        background-color: #fff;
+        position: relative;
+        left: -4%;
+    }
+    
+    li{
+        list-style-type: none;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .imagen1{
+        width: 55vw;
+        margin: 5%;
+    }
+    
+    .fondoburger{
+        display: block;
+        background-color: blue;
+        width: 20vw;
+        height: 7vh;
+        border-radius: 20%;
+        padding: 0.1rem 0.60rem 0.6rem 0.6rem;   
+        position: absolute;
+        bottom:64%;
+        left: 40%;
+        color: white;
+        font-size: 3rem;
+    };
+}
 
 
 
 
-@media screen and (min-width:767px)and (max-width:1024px) {
+
+@media screen and (min-width:768px)and (max-width:1024px) {
     /*Header*/
 
     nav ul li{
         display: flex;
     }
+
+
     .imagen1{
-        width: 35%;
+        width: 25%;
+    }
+
+    .posi{
+        position: relative;
+        left: -10%;
     }
 
     header{
-        height: 35vh;
+        height: 28vh;
     }
     
     .centrar{
         font-size: 1rem;
-        position:absolute;
-        top: 20%;
-        left: 30%;
+        align-items: center;
+        align-self: center;
+
+        position: relative;
+        left: 0%;
+       
+    }
+    .text{
+        font-size: 0.9rem;
     }
 
     .fondoburger{
         display: none;
     };
 
-    .posi{
-        position: relative;
-        left: 50%;
-        bottom: -50%;
-    }
-    .posi{
-        display: flex;
-        justify-content: right;
-        align-self: right;
-        flex-grow: 1;
-        
-    }
-
     
     .topbar{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+    }
+
+    #query{
+        width: 20vw;
+        height: 3.5vh;
+        align-items: center;
+        align-self: center;
+
+        position: relative;
+        left: 26%;   
+        bottom: -20%;
+    }
+
+    .movi{
+        width: 3vw;
+        height: 3.5vh;
+        background-color: #fff;
+        
+        position: relative;
+        left: 30%;
+        bottom: -20%;
     }
 
     .bar{
@@ -67,7 +159,7 @@
     .bar ul li{
         margin: 1rem;
         position: relative;
-        top: 200%;
+        top: 80%;
     }
     
     /*/Header*/
@@ -97,10 +189,10 @@
         width: 20vw;
     }
     .centrar{
-        font-size: 1rem;
-        position:absolute;
-        top: 20%;
-        left: 40%;
+        font-size: 1.5rem;
+        position:relative;
+        left: 0%;
+        bottom: 30%;
     }
 
     .fondoburger{
@@ -112,11 +204,32 @@
         left: 50%;
         bottom: 50%;
     }
-
+    .text{
+        font-size: 1rem;
+    }
 
     .topbar{
         display: flex;
         justify-content: space-between;
+        padding: 1rem;
+        align-self: center;
+        align-items: center;
+    }
+
+    #query{
+        width: 30vw;
+        height: 3.5vh;
+        position: relative;
+        left: -6%;   
+    }
+
+    .movi{
+        width: 2vw;
+        height: 3.5vh;
+        background-color: #fff;
+        
+        position: relative;
+        left: -10%;
     }
 
     .bar{
@@ -131,7 +244,7 @@
     .bar ul li{
         margin: 1rem;
         position: relative;
-        top: 180%;
+        top: -100%;
     }
     
     /*/Header*/
