@@ -1,6 +1,6 @@
 const express = require("Express");
 const server = express();
-const port =3030;
+const port = process.env.PORT || 3030;
 const start = () => console.log("Server On...");
 server.listen(port, start());
 //server
