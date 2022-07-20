@@ -610,7 +610,7 @@ body{
         flex-direction: row;
         justify-content: flex-start;
         position: relative;
-        right: -5%;
+        right: -10%;
     }
     
     footer ul li{
